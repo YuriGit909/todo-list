@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 14px;
+}
+
+:root {
+    --mediumWhite: #B9B9B9;
+    --darkGray: #0D0D0D;
+    --gray: #181818;
+    --mediumGray: #262626;
+    --lightGray: #676767;
+    --darkBlue: #1C709F;
+    --lightBlue: #49A9DC;
+    --violet: #6161CB;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--gray);
+}
+
+header {
+    height: 30%;
+    background-color: var(--darkGray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+    background-image: linear-gradient(to right, #49A9DC, #6161CB);
+    background-clip: text; /* Apaga do fundo tudo que não estiver imediatamente atrás de texto */
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+    -webkit-text-fill-color: transparent;   /* Remove o texto, deixando apenas o fundo atrás dele */
+    color: #fff; /* Caso o degradê não carregue */
+    font-weight: bolder;
+}
+
+header img {
+    width: 50px;
+}
+
+main {
+    margin: auto;
+    position: relative;
+    width: 700px;
+    height: 70%;
+    background-color: var(--gray);
+}
+
+main #inputData {
+    position: absolute;
+    top: -5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main input, button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+main input {
+    width: 600px;
+    background-color: var(--mediumGray);
+    color: #fff;
+}
+
+main input:focus-within {
+    outline: none;
+}
+
+main button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--darkBlue);
+    color: #fff;
+}
+
+main button:active {
+    background-color: var(--lightBlue);
+}
+
+main button img {
+    width: 2cap;
+}
+
+#activityNumbers {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 25px;
+    border-bottom: 2px solid var(--mediumGray);
+}
+
+#activityNumbers #textInfo1 {
+    background-image: linear-gradient(to right, #49A9DC, #1C709F);
+}
+
+#activityNumbers #textInfo2 {
+    background-image: linear-gradient(to left, #a44dbe, #6161CB);
+}
+
+#activityNumbers #textInfo1, #textInfo2 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+#activityNumbers span.activityQuant {
+    background-color: var(--mediumGray);
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-clip: initial;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: var(--mediumWhite);
+    color: var(--mediumWhite);
+}
+
+section#activityList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#activityList img {
+    width: 100px;
+    padding: 70px 0 30px;
+}
+
+section#activityList > p {
+    color: var(--mediumWhite);
+}
+
+section#activityList > p#phrase1 {
+    font-weight: bold;
+}
+
+#activityField {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: calc(100vw - 20px);
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="shortcut icon" href="src/assets/icons/rocket.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <span>
+            <img src="src/assets/icons/rocket.png" alt="#">
+        </span>
+        <h1>
+            ToDo
+        </h1>
+    </header>
+    <main>
+        <section id="sectionData">
+            <div id="inputData">
+                <input type="text" name="text" id="idText" autocomplete="off" placeholder="Adicione uma nova tarefa">
+                <button id="btn">
+                    <span>Criar</span>
+                    <img src="src/assets/icons/plus-circle.svg" alt="#">
+                </button>
+            </div>
+            <div id="activityNumbers">
+                <span id="textInfo1">Tarefas criadas <span class="activityQuant" id="quant">0</span></span>
+                <span id="textInfo2">Concluídas <span class="activityQuant" id="done">0</span></span>
+            </div>
+        </section>
+        <section id="activityList">
+            <img src="src/assets/icons/clipboard.svg" alt="#" id="clipboardIcon">
+            <p id="phrase1" class="phrases">Você ainda não tem tarefas cadastradas</p>
+            <p class="phrases">Crie tarefas e organize seus itens a fazer</p>
+        </section>
+    </main>
+
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>
