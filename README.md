@@ -2,6 +2,10 @@
 
 Lista de tarefas responsiva criada em HTML, CSS e JavaScript.
 
+## Acesso na Web
+
+https://your-td-list.netlify.app/ 
+
 ## Funções
 
 * Listar tarefas;
