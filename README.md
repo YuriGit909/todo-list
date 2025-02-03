@@ -1,10 +1,8 @@
 # Projeto de Lista de Tarefas
 
-Lista de tarefas responsiva criada em HTML, CSS e, posteriormente, a inclusão de JavaScript (ainda será implementada por problemas de perda de arquivos do computador)
+Lista de tarefas responsiva criada em HTML, CSS e JavaScript.
 
 ## Funções
-
-### A implementar:
 
 * Listar tarefas;
 * Adicionar novas tarefas;
@@ -23,8 +21,9 @@ Ou faça o download do arquivo compactado e extraia-o, executando o arquivo HTML
 
 ## Estrutura
 
-* Um arquivo ```index.html``` raiz 
+* Um arquivo ```index.html``` raiz;
 * Uma pasta de recursos ```src``` com as seguintes sbupastas:
   * Pasta ```styles```, com o arquivo de estilos ```style.css```;
   * Pasta ```assets``` que contém:
-    * Pasta ```icons```, contendo as imagens e ícones utilizados no projeto.
+    * Pasta ```icons```, contendo as imagens e ícones utilizados no projeto;
+  * Pasta ````scripts``` que contém o arquivo com a implementação do JavaScript.
