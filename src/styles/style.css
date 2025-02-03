@@ -160,4 +160,8 @@ section#activityList > p#phrase1 {
     main {
         width: calc(100vw - 20px);
     }
+
+    main button img {
+        width: 20px;
+    }
 }
