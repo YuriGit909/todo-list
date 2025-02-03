@@ -26,4 +26,4 @@ Ou faça o download do arquivo compactado e extraia-o, executando o arquivo HTML
   * Pasta ```styles```, com o arquivo de estilos ```style.css```;
   * Pasta ```assets``` que contém:
     * Pasta ```icons```, contendo as imagens e ícones utilizados no projeto;
-  * Pasta ````scripts``` que contém o arquivo com a implementação do JavaScript.
+  * Pasta ```scripts``` que contém o arquivo com a implementação do JavaScript.
